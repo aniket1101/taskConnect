@@ -14,6 +14,7 @@ RUN npm install react-scripts@3.4.1 -g --silent
 COPY . /app/
 
 # Build production
+#RUN npm intall
 RUN npm run build
 RUN npm install -g serve
 
